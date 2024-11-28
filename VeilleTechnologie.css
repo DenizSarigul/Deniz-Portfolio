@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(53, 115, 138);
+    background-size: cover;
+}
+
+.liste {
+    background-color: lightblue;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar ul li:hover {
+    padding: 5px; /* Optionnel: pour ajouter un peu d'espace autour du texte */
+    text-decoration: underline white;
+}
+
+.Home {
+    padding: 50px; /* Espace intérieur autour de tout le contenu dans Home */
+}
+
+.Home h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 36px;
+    margin: 0; /* Assure que le titre n'a pas de marge supplémentaire */
+}
+
+.Portfolio {
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Titre {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.Titre h1{
+    color:white;
+    font-size: 60px;
+}
+.Texte h2{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration:none;
+    font-size: 40px;
+    margin-left: 40px;
+
+}
+.Texte{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.LesArticles{
+    display: flex;
+    justify-content: left; /* Centre horizontalement le contenu */
+    gap: 20px; /* Espace entre les images */
+    margin-top: 40px; /* Espace au-dessus du conteneur */
+
+}
+.Article1,.Article2,.Article3,.Article4,.Article5{
+    text-align: center;
+    max-width: 300px; /* Limite la largeur du conteneur */
+
+}
+.Article1 img, .Article2 img, .Article3 img,.Article4 img ,.Article5 img{
+    width: 100%; /* Ajuste la largeur de l'image au conteneur */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+    border-radius: 8px; /* Coins arrondis (optionnel) */
+    background-color: white;
+}
+.descriptionArticle1, .descriptionArticle2, .descriptionArticle3 , .descriptionArticle4 , .descriptionArticle5 {
+    background-color: aquamarine;
+    text-align: center; /* Aligne le texte au centre */
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 10px; /* Ajoute du padding à l'intérieur de la div */
+    border-radius: 8px; /* Coins arrondis (optionnel) */
+    margin-top: 10px; /* Espace entre l'image et la description */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+.descriptionArticle1 w,.descriptionArticle2 v,.descriptionArticle3 g, .descriptionArticle4 j  , .descriptionArticle5i {
+    font-size: 24px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color:#333; /* Couleur de fond du tableau */
+    color: white; /* Couleur du texte */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+table th, table td {
+    border: 1px solid #555; /* Bordure des cellules */
+    padding: 10px; /* Espacement dans les cellules */
+}
+
+table th {
+    background-color: black; /* Couleur de fond pour l'en-tête */
+    font-size: 20px;
+}
+
+table td a {
+    color: lightblue; /* Couleur des liens */
+    text-decoration: none;
+}

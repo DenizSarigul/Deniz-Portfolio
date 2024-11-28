@@ -1,0 +1,52 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: rgb(53, 115, 138);
+    background-size: cover;
+}
+.liste {
+    background-color: lightblue;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    height:50px;
+    font-family: 'Courier New', Courier, monospace;
+    
+   
+   
+}
+
+.navbar li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 15px;
+    padding:10px;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+.navbar ul li:hover {
+    padding: 5px; /* Optionnel: pour ajouter un peu d'espace autour du texte */
+    text-decoration: underline white;
+}
+.Home {
+    padding: 20px; /* Espace intérieur autour de tout le contenu dans Home */
+}
+
+.Home h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration:none;
+    font-size: 45px;
+    
+}
+
+.Portfolio{
+    font-size: 40px;
+}
+a{
+	text-decoration : none;
+	color :black;
+}

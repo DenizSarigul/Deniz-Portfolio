@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(53, 115, 138);
+    background-size: cover;
+}
+
+.liste {
+    background-color: lightblue;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar ul li:hover {
+    padding: 5px; /* Optionnel: pour ajouter un peu d'espace autour du texte */
+    text-decoration: underline white;
+}
+
+.Home {
+    padding: 50px; /* Espace intérieur autour de tout le contenu dans Home */
+}
+
+.Home h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 36px;
+    margin: 0; /* Assure que le titre n'a pas de marge supplémentaire */
+}
+
+.Portfolio {
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Titre {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.FlexContainerProjets {
+    display: flex;
+    justify-content: center; /* Centre horizontalement le contenu */
+    gap: 20px; /* Espace entre les images */
+    margin-top: 40px; /* Espace au-dessus du conteneur */
+
+}
+
+.SiteMarchand, .VeilleTechno,.Stage,.GetCet {
+    text-align: center;
+    max-width: 300px; /* Limite la largeur du conteneur */
+}
+
+.SiteMarchand img, .VeilleTechno img, .Stage img, .GetCet img {
+    width: 100%; /* Ajuste la largeur de l'image au conteneur */
+    height: 200px; /* Hauteur fixe pour uniformiser */
+    max-width: 300px; /* Limite la largeur maximale */
+    object-fit: contain; /* Préserve les proportions de l'image */
+    border-radius: 8px; /* Coins arrondis (optionnel) */
+    background-color: white; /* Fond blanc */
+}
+
+.description, .descriptionVeille,.descriptionStage,.descriptionGetCet {
+    background-color: aquamarine;
+    text-align: center; /* Aligne le texte au centre */
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 10px; /* Ajoute du padding à l'intérieur de la div */
+    border-radius: 8px; /* Coins arrondis (optionnel) */
+    margin-top: 10px; /* Espace entre l'image et la description */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+
+.description w, .descriptionVeille v,.descriptionStage g,.descriptionGetCet c {
+    font-size: 24px;
+}

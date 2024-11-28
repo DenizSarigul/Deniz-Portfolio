@@ -1,0 +1,49 @@
+body{
+	background-color: rgb(53, 115, 138);
+	background-size : cover ;
+}
+h1{
+	font-family : Arial ;
+	color : white ;
+	margin-left : 20px ;
+	
+}
+
+p{
+	color : white ;
+	font-size : 200% ;
+	text-decoration : underline  ;
+	margin-left : 20px ;
+}
+d{
+	color : white ;
+	font-size : 150% ;
+	text-decoration : none ;
+	margin-left : 20px ;
+
+	
+
+}
+h2{
+	font-family : Arial ;
+	color : white ;
+	text-decoration: underline none ;
+}
+r{
+	color : white ;
+}
+f{
+	color :yellow ;
+	font-family : Times ;
+
+}
+u{
+	text-decoration : underline white;
+	color : white ;
+	margin-left : 20px ;
+}
+h3{
+	color : white ;
+	font-size : 150% ;
+	font-family : arial ;
+}

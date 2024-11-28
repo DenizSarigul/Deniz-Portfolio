@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(53, 115, 138);
+    background-size: cover;
+    
+}
+
+.liste {
+    background-color: lightblue;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.navbar li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.navbar ul li:hover {
+    padding: 5px; 
+    text-decoration: underline white;
+}
+
+.Home {
+    padding: 50px; 
+}
+
+.Home h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 36px;
+    margin: 0;
+}
+
+.Portfolio {
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Titre {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.TexteFormation {
+    text-align: left;
+    margin-left: 50px; 
+    color: white;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.TexteFormation h1 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline black;
+    margin-bottom: 10px; 
+}
+
+.TexteFormation h2 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    text-decoration: underline green;
+}
+
+.TexteFormationDroite {
+    text-align: left;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px; 
+}
+.TexteFormationDroite h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline black;
+    margin-bottom: 10px; 
+
+}
+.TexteFormationDroite h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    text-decoration: underline green;
+}
+
+
+.FlexContainerFormation {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 40px; 
+}
+
+
+.FlexContainer {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 40px; 
+}
+
+.Compétencestechniques {
+    text-align: left;
+    margin-left: 100px;
+    color: white;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.Compétencestechniques h1 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline black;
+    margin-bottom: 10px; 
+}
+
+
+.Expériences {
+    text-align: left;
+    color: white;
+    font-size: 22px;
+    padding: 20px; 
+    margin-left: 100px; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Expériences h1 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline black;
+    margin-bottom: 10px; 
+}
+.competence {
+    display: inline-block;
+    background-color:blue; /* Violet */
+    color: white;
+    padding: 10px 20px; /* Espace autour du texte, modifié pour un effet plus arrondi */
+    margin: 5px;
+    border-radius: 50px; /* Plus arrondi, presque circulaire */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    text-align: center;
+}
