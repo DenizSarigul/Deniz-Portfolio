@@ -112,7 +112,7 @@ section:not(#accueil) {
     background: white;
     border-bottom: 1px solid #ddd;
 }
-/* SECTION À PROPOS */
+
 #a-propos {
     background-color: #f8f9fa; 
     display: flex;
@@ -219,6 +219,21 @@ section:not(#accueil) {
     padding: 20px;
     width: 300px;
     text-align: center;
+}
+.expérience a {
+    display: inline-block;
+    padding: 10px 20px; 
+    border: 2px solid white; 
+    border-radius: 5px; 
+    color: white; 
+    font-size: 20px; 
+    text-decoration: none; 
+    background-color: #007BFF; 
+
+}
+.expérience a:hover{
+    background-color: #0056b3; 
+    border-color: #0056b3; 
 }
 .expérience h3 {
     color: #2C3E50;
